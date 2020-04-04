@@ -1,6 +1,7 @@
 import PIL  
 import spacy
 from spacy.symbols import ORTH
+from spacy.tokens import Span
 from flask import jsonify
 import cv2
 import pytesseract
@@ -10,8 +11,9 @@ from ..models.invoice_encoder import InvoiceEncoder, VendorEncoder, DateEncoder,
 from json import JSONEncoder
 import json
 import re
-from spacy.matcher import Matcher
+from spacy.matcher import Matcher,PhraseMatcher
 from datetime import datetime
+from spacy.pipeline import EntityRuler
 
 errors = []
 
@@ -19,42 +21,48 @@ def get_invoice_data(image, language):
     text = get_text(image)
     doc = None
     nlp = None
+    errors = []
     if(language == 'nld'):
         nlp = spacy.load("nl_core_news_sm")
-        doc =  nlp(text)
     elif(language == 'fra'):
         nlp = spacy.load("fr_core_news_sm")
-        doc = nlp(text)
     elif(language == 'eng'):
-        nlp = spacy.load("en_core_web_sm")
-        doc = nlp(text)
+        nlp = spacy.load("en_core_web_lg")
+    nlp = add_entities(nlp)
+    doc = nlp(text)
     return get_invoice(doc,nlp)
 
 def get_invoice(doc, nlp):
+    errors = []
     inv = Invoice()
     inv = get_dates(doc,nlp, inv)
-    inv.vendor = get_vendor(doc, nlp)
-    inv.number = get_number(doc, nlp)
-    inv.currency = get_currency(doc, nlp)
+    inv.vendor = get_vendor(doc,nlp)
+    inv.number = get_number(doc)
+    inv.currency = get_currency(doc)
     inv.discount = get_discount(doc, nlp)
     inv.vat = get_vat(doc,nlp)
     inv.subtotal = get_subtotal(doc, nlp)
     inv.total = get_total(doc, nlp)
     inv.lines = get_lines(doc,nlp)
-    errors.append("currency")
-    errors.append("total")
-    errors.append("subtotal")
-    inv.error = json.loads(json.dumps(errors))
+    inv.errors = json.loads(json.dumps(errors))
     return json.loads(InvoiceEncoder().encode(inv))
 
-def get_vat(doc, nlp):
-    return 21
+def add_entities(nlp):
+    ruler = EntityRuler(nlp,overwrite_ents = True)
+    patterns = [{"label": "MONEY", "pattern": [{"TEXT" : {"REGEX": "^[0-9]*[,.][0-9]{2}$"}}]}]
+    ruler.add_patterns(patterns)
+    nlp.add_pipe(ruler)
+    return nlp
 
-def get_number(doc, nlp):
+def get_vat(doc, nlp):
+    return 21.23
+
+def get_number(doc):
     return "45513312"
 
-def get_currency(doc, nlp):
-    return "EUR"
+def get_currency(doc):
+    errors.append("currency")
+    return None
 
 def get_discount(doc, nlp):
     return 25.20
@@ -63,6 +71,13 @@ def get_subtotal(doc, nlp):
     return 50.00
 
 def get_total(doc, nlp):
+    matcher = Matcher(nlp.vocab)
+    pattern = [{"LOWER": "total"}]
+    matcher.add("total", None, pattern)
+    matches = matcher(doc)
+    for match_id, start, end in matches:
+        string_id = nlp.vocab.strings[match_id]  # Get string representation
+        span = doc[start:end]  # The matched span
     return 54.00
 
 def get_lines(doc, nlp):
@@ -86,8 +101,9 @@ def get_dates(doc, nlp, invoice):
             obj = datetime.strptime(span.text,'%d/%m/%Y').date()
             dates.append(obj)
     if(len(dates) < 1):
+        errors.append("dueDate")
+        errors.append("invoiceDate")
         return invoice
-
     invoice.dueDate = json.loads(DateEncoder().encode(max(dates)))
     invoice.invoiceDate = json.loads(DateEncoder().encode(min(dates)))
     return invoice
@@ -114,21 +130,23 @@ def get_phone_vendor(doc, nlp):
     return "0478 878 787"
 
 def get_vatnumber_vendor(doc, nlp):
-    return "BE56 7888 7888 7888"
+    expression = r"[A-Za-z]{2}[0-9|\s]{8,15}"
+    for match in re.finditer(expression, doc.text):
+        start, end = match.span()
+        span = doc.char_span(start, end)
+        if span is not None:
+            return span.text.replace("\n", "")
+    errors.append("vendor.vatNumber")
+    return None
 
-def get_entities(text):
+def get_entities(doc):
     ents = []
-    for ent in text.ents:
-        ents.append({ent.text:ent.label_})
+    for ent in doc.ents:
+        ents.append({ent.text, ent.label_})
+        """i = i + 1
+        if len(doc) - 1 > i:
+            ents.append({"text":token.text,"left_neighbour":doc[i-1].nbor().text ,"right_neighbour": doc[i].nbor().text})"""
     return ents
-
-def get_tokens(text):
-    tokens = []
-    i = 0
-    for token in text:
-        i = i + 1
-        tokens.append({i: token})
-    return tokens
 
 def convert_to_tiff(image):
     path = "./app/main/images/out.tiff"

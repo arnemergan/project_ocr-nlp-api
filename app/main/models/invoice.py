@@ -38,9 +38,9 @@ class Invoice():
         self.subtotal = None
         self.total = None
         self.lines = []
-        self.error = []
+        self.errors = []
     
-    def constructor(self, number, dueDate, invoiceDate, currency, vendor, discount, vat, total, subtotal, lines, error):
+    def constructor(self, number, dueDate, invoiceDate, currency, vendor, discount, vat, total, subtotal, lines, errors):
         self.number = number
         self.dueDate = dueDate
         self.invoiceDate = invoiceDate
@@ -51,4 +51,4 @@ class Invoice():
         self.subtotal = subtotal
         self.total = total
         self.lines = lines
-        self.error = error
+        self.errors = errors
