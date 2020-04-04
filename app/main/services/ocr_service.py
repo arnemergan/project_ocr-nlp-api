@@ -27,7 +27,7 @@ def get_invoice_data(image, language):
     elif(language == 'fra'):
         nlp = spacy.load("fr_core_news_sm")
     elif(language == 'eng'):
-        nlp = spacy.load("en_core_web_lg")
+        nlp = spacy.load("en_core_web_sm")
     nlp = add_entities(nlp)
     doc = nlp(text)
     return get_invoice(doc,nlp)
