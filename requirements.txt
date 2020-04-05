@@ -68,7 +68,7 @@ lazy-object-proxy==1.4.2
 Markdown==3.1.1
 MarkupSafe==1.1.1
 matplotlib==3.1.1
-maven==0.0.8
+maven==0.0.7
 mccabe==0.6.1
 mistune==0.8.4
 mnist==0.2.2
