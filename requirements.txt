@@ -112,7 +112,6 @@ pytesseract==0.3.2
 python-dateutil==2.8.0
 python-mnist==0.6
 pytz==2018.9
-pywin32==227
 pywinpty==0.5.7
 PyYAML==5.1
 pyzmq==18.1.1
