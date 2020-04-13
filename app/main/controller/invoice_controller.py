@@ -1,11 +1,11 @@
 import os
 from flask import current_app, Flask, request, redirect, jsonify
-from ..services.ocr_service import get_invoice_data
 from werkzeug.utils import secure_filename
 from ..util.invoiceDto import InvoiceDto
 from flask_restplus import Resource
 from json import JSONEncoder
 import json
+from ..services.ocr_service import Ocr_Service
 
 ALLOWED_EXTENSIONS = set(['pdf', 'png', 'jpg', 'jpeg', 'gif'])
 ALLOWED_LANGUAGES = set(['nld','eng','fra'])
@@ -45,7 +45,8 @@ class invoice_controller(Resource):
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
             file.save(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename))
-            resp = jsonify(get_invoice_data(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename),lang))
+            ocr = Ocr_Service(lang)
+            resp = jsonify(ocr.get_invoice_data(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename)))
             resp.status_code = 200
             return resp
         else:

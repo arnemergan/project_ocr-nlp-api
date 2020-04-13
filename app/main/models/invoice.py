@@ -52,3 +52,9 @@ class Invoice():
         self.total = total
         self.lines = lines
         self.errors = errors
+
+class BoxValue():
+    def __init__(self,text,confidence,number):
+        self.confidence = confidence
+        self.text = text
+        self.number = number
