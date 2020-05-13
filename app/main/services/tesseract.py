@@ -2,6 +2,7 @@ from .opencv import OpenCV
 import pytesseract
 from ..models.invoice import BoxValue
 from pytesseract import Output
+from pdf2image import convert_from_path 
 
 class Tesseract:
     _cv = None
@@ -17,7 +18,10 @@ class Tesseract:
     def get_string(self,image):
         custom_config = r'--oem 3 --psm 6'
         image = self._cv.convert_to_tiff(image)
-        return pytesseract.image_to_string(self._cv.pre_processing(image),'eng+fra+nld', config=custom_config,output_type=Output.DICT)
+        return pytesseract.image_to_string(self._cv.pre_processing(image),'eng+fra+nld', config=custom_config)
+
+    def get_string_pdf(self,pdf):
+        return pytesseract.image_to_string(pdf,'eng+fra+nld')
         
     def get_boxes(self,image):
         boxes = []

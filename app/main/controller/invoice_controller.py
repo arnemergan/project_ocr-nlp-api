@@ -17,7 +17,10 @@ def allowed_languages(language):
     return language in ALLOWED_LANGUAGES
 
 def allowed_file(filename):
-  return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+def pdf_file(filename):
+    return '.' in filename and filename.rsplit('.',1)[1].lower() == "pdf"
 
 @api.route('/ocr')
 class invoice_controller(Resource):
@@ -29,27 +32,31 @@ class invoice_controller(Resource):
             resp.status_code = 400
             return resp
         
-        file = request.files['image']
+        files = request.files.getlist('image')
         lang = request.args.get('language')
 
-        if not allowed_languages(lang):
-            resp = jsonify({'message' : 'Not a valid language!'})
-            resp.status_code = 400
-            return resp
+        for file in files:
+            if not allowed_languages(lang):
+                resp = jsonify({'message' : 'Not a valid language!'})
+                resp.status_code = 400
+                return resp
 
-        if file.filename == '':
-            resp = jsonify({'message' : 'No image selected!'})
-            resp.status_code = 400
-            return resp
+            if file.filename == '':
+                resp = jsonify({'message' : 'No image selected!'})
+                resp.status_code = 400
+                return resp
 
-        if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
-            file.save(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename))
-            ocr = Ocr_Service(lang)
-            resp = jsonify(ocr.get_invoice_data(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename)))
-            resp.status_code = 200
-            return resp
-        else:
-            resp = jsonify({'message' : 'Allowed file types are pdf, png, jpg, jpeg, gif'})
-            resp.status_code = 400
-        return resp
+            if file and allowed_file(file.filename):
+                filename = secure_filename(file.filename)
+                file.save(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename))
+                ocr = Ocr_Service(lang)
+                json = 'e.json'
+                ocr.save_image('output',str(ocr.convert_dataturks_to_spacy(os.path.join(current_app.config['UPLOAD_FOLDER'], json))))
+                if not pdf_file(filename):
+                    resp = jsonify(ocr.get_invoice_data(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename),filename))
+                else:
+                    resp = jsonify(ocr.get_invoice_data_pdf(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename),filename))
+            else:
+                resp = jsonify({'message' : 'Allowed file types are pdf, png, jpg, jpeg, gif'})
+                resp.status_code = 400
+                return resp

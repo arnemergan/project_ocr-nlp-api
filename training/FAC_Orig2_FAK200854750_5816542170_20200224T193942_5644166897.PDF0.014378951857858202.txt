@@ -1,0 +1,65 @@
+DETAILS VAN DE FACTUUR NR, FAK200854750
+
+Leveringsadres Mergan Dirk - Baardegemstraat 14, 1745 Opwijk
+
+Verbruiksgegevens
+
+Meternummer … Begindatum Einddatum Huidige meterstand Vorige meterstand _ Verbruik (m°) Aflezing
+
+080211409 19/02/2019 17/02/2020 675,00 595,00 80,00 KLANT
+
+Aanrekening
+
+Per gedomicilieerd persoon krijgt u een korting op het vastrecht (met een maximum van 5 personen per wooneenheid).
+
+Omschrijving Aantal Eenheidsprijs Excl. btw Btw
+(EUR)
+
+ 
+
+Vastrecht drinkwater
+Vastrecht drinkwater
+1 eenheden 19/02/2019 tot 31/12/2019 316 dag(en) 0,1370 43,29 6%
+1 eenheden 01/01/2020 tot 17/02/2020 48 dag(en) 0,1366 6,56 6%
+
+Korting gedomicilieerden vastrecht
+drinkwater
+
+5 gedomicilieerde(n) 19/02/2019 tot 31/12/2019 5 * 316 dag(en) -0,0274 -43,29 6%
+5 gedomicilieerde(n) 01/01/2020 tot 17/02/2020 5 * 48 dag(en) -0,0273 -6,56 6%
+
+ 
+
+ 
+
+Verbruik drinkwater
+Verbruik drinkwater basistarief
+Verbruiksperiode van 19/02/2019 tot 31/12/2019 69,45 m3 1,7886 124,22 6%
+
+Verbruiksperiode van 01/01/2020 tot 17/02/2020 10,55 m3 1,8364 19,37 6%
+
+ 
+
+Vastrecht gemeentelijke bijdrage voor afvoer
+Vastrecht afvoer
+
+1 eenheden 19/02/2019 tot 31/12/2019 316 dag(en) 0,0822 25,97 6%
+1 eenheden 01/01/2020 tot 17/02/2020 48 dag(en) 0,0820 3,93 6%
+Korting gedomicilieerden vastrecht
+
+afvoer
+
+5 gedomicilieerde(n) 19/02/2019 tot 31/12/2019 5 * 316 dag(en) -0,0164 -25,97 6%
+5 gedomicilieerde(n) 01/01/2020 tot 17/02/2020 5 * 48 dag(en) -0,0164 -3,93 6 %
+
+ 
+
+ 
+
+Gemeentelijke bijdrage voor afvoer
+
+Bijdrage voor de afvoer van drinkwater
+basistarief
+
+Verbruiksperiode van 19/02/2019 tot 31/12/2019 69,45 m3 1,3915 96,64 6 %
+Verbruiksperiode van 01/01/2020 tot 17/02/2020 10,55 m3 1,3968 14,74 6 %

@@ -20,16 +20,17 @@ class Spacy:
     dates = []
 
     def __init__(self,language):
-        if(language == 'nld'):
+        """if(language == 'nld'):
             self._nlp = spacy.load("nl_core_news_sm")
         elif(language == 'fra'):
             self._nlp = spacy.load("fr_core_news_sm")
         else:
-            self._nlp = spacy.load("en_core_web_sm")
+            self._nlp = spacy.load("en_core_web_sm")"""
+        self._nlp = spacy.load("D:\\School\\FINAL_WORK\\Git\\nlp_ocr_api\\API-ocr-nlp_final-work\\spacy_training\\Invoicing")
         self.money.clear()
         self.dates.clear()
-        self._entityruler = EntityRuler(self._nlp,overwrite_ents = True)
-        self.add_entities()
+        """self._entityruler = EntityRuler(self._nlp,overwrite_ents = True)
+        self.add_entities()"""
         self._invoice = Invoice()
 
     def add_entities(self):
@@ -45,10 +46,10 @@ class Spacy:
             self.load_invoice()
 
         for money in self.money:
-            print(money)
+            """print(money)"""
 
         for date in self.dates:
-            print(date)
+            """print(date)"""
 
         return self._invoice
 
@@ -148,14 +149,15 @@ class Spacy:
     def get_entities(self):
         ents = []
         for ent in self._doc.ents:
+            print({ent.text, ent.label_})
             if ent.label_ == "MONEY":
                 self.money.append(ent.text)
-                print({ent.text, ent.label_})
+                """print({ent.text, ent.label_})"""
             elif ent.label_ == "DATE":
                 self.dates.append(ent.text)
-                print({ent.text, ent.label_})
+                """print({ent.text, ent.label_})"""
             elif ent.label_ == "PROCENT":
-                print({ent.text, ent.label_})
+               """print({ent.text, ent.label_})"""
             
 
         

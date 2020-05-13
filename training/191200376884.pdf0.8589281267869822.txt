@@ -1,0 +1,82 @@
+Bijlage aan FACTUUR Nr.: 191200376884
+Pagina: 6/8
+
+Klantenrekening: 27193487
+
+Datum: 17 oktober 2019
+
+ 
+
+Telefoonnummer: 0476/304196
+
+Nationale gesprekken
+
+Nr DATUM UUR BESTEMMING NETWERK BIJKOMENDE DUUR TARIEF PRIJS
+DIENSTEN(1) IN EUR
+
+281 08 okt. 17:51 0476204206 Andere operator 2:11 Normaal 0,0000
+282 08 okt. 19:18 0474874561 Proximus Mobiel 1:41 Daluur 0,0000
+283 09 okt. 09:06 0477611145 On-net 1:56 Normaal 0,0000
+284 09 okt. 09:38 0470891424 On-net 2:00 Normaal 0,0000
+285 09 okt. 10:07 0470891424 On-net 2:31 Normaal 0,0000
+286 09 okt. 10:10 0465675291 Proximus Mobiel 1:00 Normaal 0,0000
+287 09 okt. 10:24 0492181624 Andere operator 1:00 Normaal 0,0000
+288 09 okt. 10:34 0478606228 On-net 0:04 Normaal 0,0000
+289 09 okt. 11:55 0478606228 On-net 15:24 Normaal 0,0000
+290 09 okt. 12:47 0478606228 On-net 0:41 Normaal 0,0000
+291 09 okt. 12:57 0475714529 Proximus Mobiel 1:14 Normaal 0,0000
+292 09 okt. 13:36 0477611145 On-net 2:20 Normaal 0,0000
+293 09 okt. 14:09 0478600743 On-net 2:30 Normaal 0,0000
+294 09 okt. 14:12 0478606228 On-net 8:09 Normaal 0,0000
+295 09 okt. 14:21 014575068 PXS Vaste Lijn 1:00 Normaal 0,0000
+296 09 okt. 14:22 0478797259 On-net 4:48 Normaal 0,0000
+297 09 okt. 14:58 0475346405 On-net 3:52 Normaal 0,0000
+298 09 okt. 16:38 0472699579 Proximus Mobiel 1:00 Normaal 0,0000
+299 09 okt. 17:27 052355341 PXS Vaste Lijn 5:58 Normaal 0,0000
+300 09 okt. 18:22 0478319442 Proximus Mobiel 1:53 Normaal 0,0000
+301 10 okt. 08:43 0472699579 Proximus Mobiel 1:00 Normaal 0,0000
+302 10 okt. 09:01 0478797259 On-net 13:02 Normaal 0,0000
+303 10 okt. 09:47 0470123603 Proximus Mobiel 1:00 Normaal 0,0000
+304 10 okt. 10:05 0475346405 On-net 0:04 Normaal 0,0000
+305 10 okt. 10:42 0470123603 Proximus Mobiel 1:00 Normaal 0,0000
+306 10 okt. 11:15 0478797259 On-net 0:28 Normaal 0,0000
+307 10 okt. 11:17 0492731899 Andere operator 1:00 Normaal 0,0000
+308 10 okt. 11:38 0475576437 On-net 5:30 Normaal 0,0000
+309 10 okt. 13:19 0492181624 Andere operator 2:26 Normaal 0,0000
+310 10 okt. 13:56 0470891424 On-net 4:22 Normaal 0,0000
+311 10 okt. 15:26 0478606228 On-net 0:05 Normaal 0,0000
+312 10 okt. 15:47 0475799686 Proximus Mobiel 2:56 Normaal 0,0000
+313 10 okt. 15:50 0478606228 On-net 1:37 Normaal 0,0000
+314 10 okt. 17:50 052355341 PXS Vaste Lijn 1:26 Normaal 0,0000
+315 11 okt. 08:35 0476280688 On-net 32:18 Normaal 0,0000
+316 11 okt. 09:08 0477711543 On-net 7:16 Normaal 0,0000
+317 11 okt. 09:15 0476280688 On-net 1:24 Normaal 0,0000
+318 11 okt. 09:27 0472371956 Proximus Mobiel 3:02 Normaal 0,0000
+319 11 okt. 09:30 014575063 PXS Vaste Lijn 2:25 Normaal 0,0000
+320 11 okt. 10:38 0471821242 Proximus Mobiel 1:41 Normaal 0,0000
+321 11 okt. 13:19 0470894577 On-net 0:23 Normaal 0,0000
+322 11 okt. 14:59 052355341 PXS Vaste Lijn 2:48 Normaal 0,0000
+323 11 okt. 15:02 0478797259 On-net 0:02 Normaal 0,0000
+324 11 okt. 15:02 0472699579 Proximus Mobiel 8:30 Normaal 0,0000
+325 11 okt. 15:31 0470891424 On-net 11:02 Normaal 0,0000
+326 11 okt. 16:18 0478797259 On-net 0:04 Normaal 0,0000
+327 11 okt. 16:24 0478312575 Andere operator 2:00 Normaal 0,0000
+328 11 okt. 16:27 0478797259 On-net 17:26 Normaal 0,0000
+329 11 okt. 17:49 0478658440 Andere operator 1:00 Normaal 0,0000
+330 11 okt. 17:56 0478658440 Andere operator 1:49 Normaal 0,0000
+331 11 okt. 18:05 0485715882 Andere operator 1:16 Normaal 0,0000
+332 11 okt. 18:07 052354565 PXS Vaste Lijn 1:46 Normaal 0,0000
+333 11 okt. 18:22 0478658440 Andere operator 1:00 Normaal 0,0000
+334 12 okt. 11:44 0478319442 Proximus Mobiel 1:02 Daluur 0,0000
+Gebruikte minuten: 1137:37 Totaal nationale gesprekken: 0,0000
+
+internationale gesprekken
+
+Nr DATUM UUR BESTEMMING LAND BIJKOMENDE DUUR TARIEF PRIJS
+DIENSTEN(1) IN EUR
+
+335 02 okt. 10:47 040 728356105 Roemenië GSM R 4:34 Normaal 1,1417
+Gebruikte minuten: 4:34 Totaal internationale gesprekken: 1,1417
+
+Voor inlichtingen: bel de klantendienst op 0800 22 200 in België (gratis) of +32 800 22 200 vanuit het buitenland (betalend). Voor meer info of het gebruik van de onlinediensten, ga naar
+www.proximus.be.

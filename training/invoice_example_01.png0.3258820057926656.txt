@@ -1,0 +1,24 @@
+Turnpike me
+. Turnpike Designs
+Designs Co. 156 University Ave, Toronto
+ON, Canada , M5H 2H7
+416-555-1212
+BILL TO Invoice Number: 14
+Jiro Doi PO./S.0. Number: AD29094
+1954 Bloor Street West Invoice Date: 2018-09-25
+Toronto, ON, M6P 3K9 Payment Due: Upon receipt
+Canada
+Amount Due (USD): $2,608.20
+j_doi@example.com
+416-555-1212
+Services Quantity Price Amount
+Platinum web hosting package 1 $65.00 $65.00
+Down 35mb, Up 100mb
+2 page website design 3 $2,100.00 $2,100.00
+Includes basic wireframes, and responsive templates
+Mobile designs 1 $250.00 $250.00
+Includes responsive navigation
+Subtotal: $2,145.00
+Tax 8%: $193.20
+Total: $2,608.20
+Amount due (CAD): $2,608.20

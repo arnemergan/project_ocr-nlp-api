@@ -1,0 +1,16 @@
+INVOICE # BE-001 INVOICE DATE 29/01/2019
+PO# 1530/2019 DUE DATE 29012919
+BILLTO SHIP TO Trekking Inc.
+Bauke H Finke Bauke H Finke Bourgmesire 485
+Rue Bois Colau 154 Rue Bouhouille 137 Kerkom, Hainaut 8470
+Eliksem, Limburg 3740 Lembeek, Antwerp 1703
+1 Carabiner and crampon set 100.00 100.00
+2 80 meter climbing rope 15,00 30.00
+3 ‘Climbing chalk bag 500 15.00
+‘Subtotal 145.00
+TVA 21.0% 30.45
+TERMS & CONDITIONS
+Le paiement est dû dans 15 jours
+BNP Paribas Forlis
+IBAN: BE71 1234 5678
+SWIFT/BIC: ABCDBEAIXXX

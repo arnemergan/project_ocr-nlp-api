@@ -1,0 +1,26 @@
+Invoice Date: 29/01/2019
+INVOICE # GE-001 Qty Description Unit Price Amount
+Trokking ine 1 Caradioos an crmnpon set 10000 10000
+Bourgroste 485
+Kear, Hainaut 6470 280 meter ching rope 1500 2000
+puto 3 Climbing chak bag 5.00 1500
+Boke H Finke
+Rue Gols Colau 154
+Etizom, Limdurg 3740
+Subtotal 14500
+
+Ship To
+Bouco Henke TVA210% 2045
+ue Bounouibe 197
+Lemmboek, Antwerp 1703
+
+Total 175.45 €
+Pox
+15202019
+Due Date
+29012019
+Terms & Conditions
+Le palemant est 60 dane 18 fours
+BNP Partes Forts
+BAN: BE74 1254 5678
+SWIPTIENC: ABCOBEA DON

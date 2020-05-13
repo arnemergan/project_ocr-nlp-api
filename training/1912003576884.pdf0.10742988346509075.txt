@@ -1,0 +1,89 @@
+Bijlage aan FACTUUR Nr.: 191200376884
+Pagina: 2/8
+
+Klantenrekening: 27193487
+
+Datum: 17 oktober 2019
+
+ 
+
+Telefoonnummer: 0476/304196
+
+Nationale gesprekken
+
+Nr DATUM UUR BESTEMMING NETWERK BIJKOMENDE DUUR TARIEF PRIJS
+DIENSTEN(1) IN EUR
+
+1 13 sep. 08:01 0477611145 On-net 10:21 Normaal 0,0000
+2 13 sep. 08:14 014575063 PXS Vaste Lijn 10:27 Normaal 0,0000
+3 13 sep. 08:34 0478606228 On-net 0:04 Normaal 0,0000
+4 13 sep. 09:21 014575068 PXS Vaste Lijn 1:58 Normaal 0,0000
+5 13 sep. 10:15 0473606565 Andere operator 1:00 Normaal 0,0000
+6 13 sep. 10:34 0476961604 On-net 3:11 Normaal 0,0000
+7 13 sep. 11:35 0475267986 Andere operator 1:00 Normaal 0,0000
+8 13 sep. 11:58 0488588536 Andere operator 1:00 Normaal 0,0000
+9 13 sep. 13:37 0475799686 Proximus Mobiel 3:28 Normaal 0,0000
+10 14 sep. 11:38 0478841187 Proximus Mobiel 3:44 Daluur 0,0000
+11 16 sep. 08:26 0475346405 On-net 7:10 Normaal 0,0000
+12 16 sep. 08:57 0494424622 Andere operator 1:00 Normaal 0,0000
+13 16 sep. 08:57 0478606228 On-net 2:30 Normaal 0,0000
+14 16 sep. 09:40 0488588536 Andere operator 1:00 Normaal 0,0000
+15 16 sep. 09:53 0488588536 Andere operator 1:00 Normaal 0,0000
+16 16 sep. 09:58 014575063 PXS Vaste Lijn 6:26 Normaal 0,0000
+17 16 sep. 13:24 014575063 PXS Vaste Lijn 12:11 Normaal 0,0000
+18 16 sep. 13:37 0478797259 On-net 0:04 Normaal 0,0000
+19 16 sep. 13:53 05236941 1 PXS Vaste Lijn 2:16 Normaal 0,0000
+20 16 sep. 14:19 0476207298 Andere operator 5:48 Normaal 0,0000
+21 16 sep. 14:46 0475950170 Proximus Mobiel 1:00 Normaal 0,0000
+22 16 sep. 15:04 0475950170 Proximus Mobiel 2:07 Normaal 0,0000
+23 16 sep. 15:07 0499258799 Andere operator 1:00 Normaal 0,0000
+24 16 sep. 15:11 0478606228 On-net 11:03 Normaal 0,0000
+25 16 sep. 15:38 0475636890 Andere operator 1:30 Normaal 0,0000
+26 16 sep. 15:40 0477611145 On-net 0:05 Normaal 0,0000
+27 16 sep. 15:41 0475799686 Proximus Mobiel 1:37 Normaal 0,0000
+28 16 sep. 15:49 0473606565 Andere operator 1:00 Normaal 0,0000
+29 16 sep. 17:37 0473924744 Proximus Mobiel 1:00 Normaal 0,0000
+30 17 sep. 08:39 0478797259 On-net 21:26 Normaal 0,0000
+31 17 sep. 09:46 0478606228 On-net 0:04 Normaal 0,0000
+32 17 sep. 09:53 014575068 PXS Vaste Lijn 9:23 Normaal 0,0000
+33 17 sep. 10:02 0476280619 On-net 3:31 Normaal 0,0000
+34 17 sep. 10:15 0477611145 On-net 17:50 Normaal 0,0000
+35 17 sep. 10:34 0478606228 On-net 11:35 Normaal 0,0000
+36 17 sep. 10:54 0475611201 On-net 0:03 Normaal 0,0000
+37 17 sep. 11:00 0495166308 Proximus Mobiel 1:00 Normaal 0,0000
+38 17 sep. 11:46 0495166308 Proximus Mobiel 1:00 Normaal 0,0000
+39 17 sep. 11:55 0475611201 On-net 1:14 Normaal 0,0000
+40 17 sep. 12:03 0476341009 Andere operator 5:00 Normaal 0,0000
+41 17 sep. 12:11 0478658440 Andere operator 10:43 Normaal 0,0000
+42 17 sep. 13:53 0476800462 On-net 5:21 Normaal 0,0000
+43 17 sep. 13:59 0478605452 On-net 0:08 Normaal 0,0000
+44 17 sep. 15:02 0472699579 Proximus Mobiel 1:00 Normaal 0,0000
+45 17 sep. 18:14 052355341 PXS Vaste Lijn 5:49 Normaal 0,0000
+46 18 sep. 10:48 0477611145 On-net 4:58 Normaal 0,0000
+47 18 sep. 11:01 0477611145 On-net 0:32 Normaal 0,0000
+48 18 sep. 11:08 0477611145 On-net 0:47 Normaal 0,0000
+49 18 sep. 11:30 0477611145 On-net 0:32 Normaal 0,0000
+50 18 sep. 12:00 0475346405 On-net 0:29 Normaal 0,0000
+51 18 sep. 14:03 032262000 PXS Vaste Lijn 1:00 Normaal 0,0000
+52 18 sep. 18:09 0494424622 Andere operator 5:39 Normaal 0,0000
+53 18 sep. 18:15 0470893982 On-net 0:02 Normaal 0,0000
+54 18 sep. 18:16 0472126174 Proximus Mobiel 1:00 Normaal 0,0000
+55 18 sep. 18:48 0478606228 On-net 0:29 Normaal 0,0000
+56 18 sep. 19:08 052355341 PXS Vaste Lijn 1:00 Daluur 0,0000
+57 19 sep. 08:50 0477611145 On-net 4:32 Normaal 0,0000
+58 19 sep. 09:19 014575068 PXS Vaste Lijn 5:41 Normaal 0,0000
+59 19 sep. 09:25 0470893982 On-net 5:29 Normaal 0,0000
+60 19 sep. 09:32 0473684740 Proximus Mobiel 1:00 Normaal 0,0000
+61 19 sep. 10:17 0495536384 Proximus Mobiel 1:00 Normaal 0,0000
+62 19 sep. 10:21 0475576437 On-net 8:27 Normaal 0,0000
+63 19 sep. 10:33 0470377131 On-net 4:57 Normaal 0,0000
+64 19 sep. 10:40 0478983020 Andere operator 7:13 Normaal 0,0000
+65 19 sep. 10:48 0475799686 Proximus Mobiel 2:37 Normaal 0,0000
+66 19 sep. 10:51 0470123603 Proximus Mobiel 3:49 Normaal 0,0000
+67 19 sep. 10:55 0475799686 Proximus Mobiel 1:10 Normaal 0,0000
+68 19 sep. 10:56 0476341009 Andere operator 1:00 Normaal 0,0000
+69 19 sep. 11:50 0475799686 Proximus Mobiel 1:57 Normaal 0,0000
+70 19 sep. 12:46 0477611145 On-net 0:31 Normaal 0,0000
+
+Voor inlichtingen: bel de klantendienst op 0800 22 200 in Belgié (gratis) of +32 800 22 200 vanuit het buitenland (betalend). Voor meer info of het gebruik van de onlinediensten, ga naar
+www. proximus. be.

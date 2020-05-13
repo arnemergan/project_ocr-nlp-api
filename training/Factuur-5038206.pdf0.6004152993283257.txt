@@ -1,0 +1,12 @@
+Klantnummer … Factuurnummer = Factuurdatum BTW nummer Contactpersoon Betaalwijze Betalingstermijn
+
+1298829 5038206 08-05-2014 r VOOuitbetaling | binnen 14 dagen
+
+Aantal Artikelnummer Omschrijving Prijs Totaal
+
+1 | 044272 HP C2N92AE multipack XL zwart/cyaan/magenta/geel (origineel) € 48,50 € 48,50
+1|VZA Verzend- en Administratiekosten € 4,95 € 4,95
+
+Subtotaal BTW 21.0% Totaal
+
+€ 44,17 € 9,28 € 53,45

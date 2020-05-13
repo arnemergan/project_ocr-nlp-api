@@ -1,0 +1,20 @@
+Trekking Ine.
+Bourgmestre 485
+Kerkom, Hainaut 6470
+BILLTO SHIP TO INVOICE # GE-001
+Bauke H Finke Bauke H Finke INVOICE DATE 29012019
+Rue Bois Colau 154 Rue Bouhouille 137 poe
+Eliksem, Limburg 3740 Lembeek, Antwerp 1703 v 1530/2019
+DUE DATE 291012019
+ay DESCRIPTION UNIT PRICE AMOUNT
+1 Carabiner and crampon set 100.00 100.00
+2 80 meter climbing rope 15.00 30.00
+3 Cimbing chalk bag 5.00 15.00
+Subtotal 148.00
+TVA 21.0% 3045
+TOTAL 175.45 €
+TERMS & CONDITIONS
+Le paiement est d0 dans 15 jours
+BNP Paribas Foris
+IBAN: BE71 1234 5678
+SWIFTIBIC: ABCDBEAIXXX

@@ -1,0 +1,25 @@
+a
+Trekking Inc.
+Bourgmestre 485
+Kerkom, Hainaut 6470
+Bill To Ship To Invoice # BE-001
+Bauke H Finke Bauke H Finke Invoice Dale 29/01/2019
+Rue Bois Colau 154 Rue Bouhouille 137
+Eliksem, Limburg 3740 | Lembeek, Antwerp 1703 | P-O-# 183012019
+Due Date 29/01/2019
+Qty OS SS Amouot
+1 Carabiner and crampon set 100.00 100.00
+2 80 meter climbing rope 4800 30.00
+i 3 Climbing chalk bag 5.00 45.00
+a
+Subtotal 145.00
+q q TVA 21.0% 3045
+' are} 175.45C
+;
+"> |
+Terms & Conditions
+Le paiement est dû dans 15 jours
+/ BNP Paribas Fortis
+IBAN: BE71 1234 5678
+SWIFTIBIC: ABCOBEATXXX
+4

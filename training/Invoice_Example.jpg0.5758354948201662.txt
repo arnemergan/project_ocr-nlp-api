@@ -1,0 +1,23 @@
+INVOICE
+BILL TO Invoice Number 000123
+Invoice Date May 10, 2018
+Bench Accounting Payment Due May 30, 2018
+545 Robson St
+Vancouver BC, V6B2B7 Canada
+info@bench.co
+Shipping Details
+Order Date May 10, 2018
+Est. Delivery Date May 10, 2018
+Method Ground
+Trackable Yes
+Shipping To 545 Robson St Vancouver BC, V6B 2B7 Canada
+Note To be delivered to cargo bay #2
+Item Qty Unit Cost Amount
+10 Chairs 10 $500.00 — $5,000.00
+Comfortable but overpriced chairs
+Subtotal $5,000.00
+Tax (13.0%) $5,650.00
+Total $5,650.00
+Amount Due $5,650.00
+ACME Industries
+123 Acme Avenue Smallville, AZ, 54354 USA business@acme.com

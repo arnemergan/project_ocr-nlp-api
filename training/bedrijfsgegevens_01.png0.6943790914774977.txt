@@ -1,0 +1,28 @@
+LOU AAA
+& lightspeed Factuur INVO1213
+eCom Order ORDO1305
+Test Lightspeed testshop.webwecan.ni
+Keizersgracht 313 algemeen@uwdomein.com
+1016 EE Amsterdam
+Nederland Lightapeed
+Herengracht
+1015 BN Amsterdam
+Nederland
+Factuumummer Ordernummer Klantnummer Datum
+INVO1213 ORD01305 17843936 Woensdag 05 Juli 2017
+Nintendo SNES. te 2% €48279 €0,00 €482,79
+Verzending & Afhandeling x 0% €0,00 €0,00 €0,00
+Bezorgd thuis of op het werk
+Bataalkosten x 0% €0.00 €0,00 €0,00
+Vooruitbetalen vie bankoverschriving
+Totaal excl. BTW €482,79
+BTW21% €t01,39
+Totaal Incl, BTW €584,18
+Bedrijfsgegevens Bankgegevens Verzendadres
+Kvk-nummer 17229470 Rekeninghouder Jan Jansen Test Lightspeed
+Geregistreerd te Jansen Bank codenummer ABC Keizersgracht 313
+Btw-nummer NL819674734BO1 Bank ABN AMBRO 1016 EE Amsterdam
+@SN-nummer 1234567859 IBAN NLOOBANKD123456789 Nederland
+Directeur Jan BIC NLOABNA
+Betaaimethode
+Voorultbetalen via bankoverschrijving

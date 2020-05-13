@@ -1,0 +1,17 @@
+invoice oat PE A A
+2901/2019 EE
+Kerkom, Hainaut 6470
+MLT ‘SHPTO fos
+Bauke H Finke Bauke H Finke 1530/2019
+Rus Bois Colau 154 Rue Bouhoulle 137
+Eliksem, Limburg 3740 Lembeek, Antwerp 1703 BUEDATE
+2901/2019
+av DESERAPTION ‘UNIT PRICE AMOUNT
+1 Carabiner and crampon set 100.00 100.00.
+2 80 meter climbing rope 15.00 30.00
+3 Climbing chakk bag 5.00 15.00
+‘Subtotal 145.00.
+TVA 21.0% 3045
+Total 176.45 €
+eae
+BE-001

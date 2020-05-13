@@ -1,0 +1,19 @@
+Acme 87 Queen Street
+4161234567 Hamlet, Ontario
+Company name N2R2R2
+Canada
+Example invoice
+Billed To Date of Issue Invoice Number Amount Due (CAD)
+Aden Matchett 06/03/2019 0000005
+Vandelay Group $5 ; 500 . 00
+123 Main Street ; Due Date
+Townsville, Ontario 07/03/2019
+M4L2DY
+Description Rate Qty Line Total
+Project $5,000.00 1 $5,000.00
+Expenses $500.00 1 $500.00
+Subtotal 5,500.00
+Tax 0.00
+Total 5,500.00
+Amount Paid 0.00
+Amount Due (CAD) $5,500.00
