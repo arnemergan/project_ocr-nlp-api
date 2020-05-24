@@ -1,57 +1,21 @@
-class Line():
-    def __init__(self):
-        self.amount = None
-        self.quantity = None
-        self.description = None
-        self.unitPrice = None
+class Line(dict):
+    def __init__(self, amount, quantity, description, unitPrice):
+        dict.__init__(self, amount=amount, quantity=quantity, description=description,unitPrice=unitPrice)
 
-    def constructor(self,amount,quantity,description,unitPrice):
-        self.amount = amount
-        self.quantity = quantity
-        self.description = description
-        self.unitPrice = unitPrice
+class Vendor(dict):
+    def __init__(self, name, address, email, phone, vatNumber):
+        dict.__init__(self, name=name, address=address, email=email,phone=phone, vatNumber=vatNumber)
 
-class Vendor():
-    def __init__(self): 
-        self.name = None
-        self.address = None
-        self.email = None 
-        self.phone = None
-        self.vatNumber = None
+class Invoice(dict):
+    def __init__(self, vendor, lines, number, dueDate, invoiceDate, currency, vat, subtotal, total):
+        dict.__init__(self,lines=lines ,vendor=vendor,number=number, dueDate=dueDate, invoiceDate=invoiceDate,currency=currency, vat=vat,subtotal=subtotal, total=total)
 
-    def constructor(self,name,address,email,phone,vatNumber):
-        self.name = name
-        self.address = address
-        self.email = email
-        self.phone = phone
-        self.vatNumber = vatNumber        
-
-class Invoice():
-    def __init__(self):
-        self.number = None
-        self.dueDate = None
-        self.invoiceDate = None
-        self.currency = None
-        self.vendor = Vendor()
-        self.discount = None
-        self.vat = None
-        self.subtotal = None
-        self.total = None
-        self.lines = []
-        self.errors = []
+class Value(dict):
+    def __init__(self, value, confidence, label):
+        dict.__init__(self, value=value, confidence=confidence, label=label)
     
-    def constructor(self, number, dueDate, invoiceDate, currency, vendor, discount, vat, total, subtotal, lines, errors):
-        self.number = number
-        self.dueDate = dueDate
-        self.invoiceDate = invoiceDate
-        self.currency = currency
-        self.vendor = vendor
-        self.discount = discount
-        self.vat = vat
-        self.subtotal = subtotal
-        self.total = total
-        self.lines = lines
-        self.errors = errors
+    def default(self):
+        dict.__init__(self, value='', confidence=0, label='')
 
 class BoxValue():
     def __init__(self,text,confidence,number):

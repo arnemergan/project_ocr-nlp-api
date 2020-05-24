@@ -50,12 +50,11 @@ class invoice_controller(Resource):
                 filename = secure_filename(file.filename)
                 file.save(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename))
                 ocr = Ocr_Service(lang)
-                json = 'e.json'
-                ocr.save_image('output',str(ocr.convert_dataturks_to_spacy(os.path.join(current_app.config['UPLOAD_FOLDER'], json))))
                 if not pdf_file(filename):
-                    resp = jsonify(ocr.get_invoice_data(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename),filename))
+                    resp = jsonify(ocr.get_invoice_data(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename)))
                 else:
-                    resp = jsonify(ocr.get_invoice_data_pdf(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename),filename))
+                    resp = jsonify(ocr.get_invoice_data_pdf(os.path.join(current_app.config['UPLOAD_FOLDER'] , filename)))
+                return resp
             else:
                 resp = jsonify({'message' : 'Allowed file types are pdf, png, jpg, jpeg, gif'})
                 resp.status_code = 400
