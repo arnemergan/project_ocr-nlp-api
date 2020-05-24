@@ -1,6 +1,5 @@
 from flask import jsonify
 from ..models.invoice import Vendor, Line, BoxValue, Invoice
-from ..models.invoice_encoder import InvoiceEncoder, VendorEncoder, DateEncoder, LineEncoder
 from json import JSONEncoder
 import json
 from .tesseract import Tesseract
