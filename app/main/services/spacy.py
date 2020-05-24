@@ -100,7 +100,7 @@ class Spacy:
                 obj = datetime.strptime(span.text,'%d/%m/%Y').date()
                 dates.append(obj)
         if(len(dates) > 0):
-            return Value(max(dates),0.5,"DATE")
+            return Value(str(max(dates)),0.5,"DATE")
         return Value("",0.0,"DATE")
 
     def get_invoice_date(self):
@@ -113,7 +113,7 @@ class Spacy:
                 obj = datetime.strptime(span.text,'%d/%m/%Y').date()
                 dates.append(obj)
         if(len(dates) > 0):
-            return Value(min(dates),0.5,"DATE")
+            return Value(str(min(dates)),0.5,"DATE")
         return Value("",0.0,"DATE")
 
     def get_entities(self):
